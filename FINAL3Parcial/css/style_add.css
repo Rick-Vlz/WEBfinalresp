@@ -1,0 +1,273 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing : border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #202020;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px #D1C7C7; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #959595; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
+
+body{
+  background-image: url(../assets/img/DNA.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+
+.masthead {
+  height: 100vh;
+  min-height: 100%;
+}
+
+
+@font-face {
+    font-family: xd;
+    src: url(../assets/fonts/abnes/abnes.otf);
+}
+
+
+/* CSS */
+.button-31 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: static;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+
+#cont_pro{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background-image: url(../assets/img/p11.jpg);
+  display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+#section_pro{
+  background-color: rgba(184, 178, 178, 0.562);
+  width: 80%;
+  height: 100%;
+  position: relative;
+}
+
+#allvid_pro{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(../assets/img/p14.jpg);
+  display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+#vid_pro{
+  background-color: rgba(184, 178, 178, 0.562);
+  width: 80%;
+  height: 100%;
+  position: relative;
+  align-items: center;
+}
+
+#all_conta{
+  width: 100%;
+  height: 100%;
+  position: static;
+  background-image: url(../assets/img/p14.jpg);
+  display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+#form_conta{
+  background-color: rgba(255, 255, 255, 0.945);
+  width: 70%;
+  height: 99%;
+  position: relative;
+  align-items: center;
+}
+
+
+#all_foot{
+  width: 100%;
+  height: 100%;
+  position: static;
+  background-image: url(../assets/img/p12.jpg);
+  display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+#form_foot{
+  background-color: rgba(0, 0, 0, 0.664);
+  width: 70%;
+  height: 99%;
+  position: relative;
+  align-items: center;
+}
+
+.card_color{
+  background-color: rgb(92, 91, 91);
+}
+
+#ct1{
+  text-size-adjust: 50%;
+}
+
+
+
+
+#container {
+  height: 500px;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+  min-width: 320px;
+  max-width: 700px;
+  margin: 1em auto;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+    min-width: 360px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+
+#container3 {
+  height: 500px;
+  min-width: 310px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.loading {
+  margin-top: 10em;
+  text-align: center;
+  color: gray;
+}
