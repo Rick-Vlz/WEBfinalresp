@@ -4271,11 +4271,12 @@ table span.badge {
 
 nav {
   color: #fff;
-  background-color: rgba(31, 29, 29, 0.075);
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(202, 233, 244, 0.52));
   width: 100%;
   height: 56px;
   line-height: 56px;
 }
+
 
 nav.nav-extended {
   height: auto;
