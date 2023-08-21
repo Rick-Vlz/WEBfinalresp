@@ -1,3 +1,8 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
 *{
 padding: 0px;
 margin: 0px;
@@ -30,8 +35,8 @@ body{
   background-image: url(../assets/img/DNA.jpg);
   background-repeat: no-repeat;
   background-color: black;
+  margin: 0;
 }
-
 
 .masthead {
   height: 100vh;
@@ -68,11 +73,23 @@ header .container {
   z-index: 2;
 }
 
-
+.shadow{
+  text-shadow: black 0.1em 0.1em 0.3em;
+}
 
 @font-face {
     font-family: xd;
     src: url(../assets/fonts/abnes/abnes.otf);
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  color: white;
+}
+
+.Back{
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(202, 233, 244, 0.52));
 }
 
 
