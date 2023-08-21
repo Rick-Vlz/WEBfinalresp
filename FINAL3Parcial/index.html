@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ETERNO</title><!-- Titulo o nombre de la pagina-->
+    <title>EternaLab</title><!-- Titulo o nombre de la pagina-->
     <!--Links-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="36x36" href="assets/img/favicon/favicon-32x32.png">
@@ -15,12 +15,13 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/funadd.js"></script>
     <script type="text/javascript" src="css/materialize/js/materialize.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 
 </head>
 <body>
     <nav>
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo"><h4 class="white-text">&nbsp;ETERNO</h4></a>
+          <a href="#" class="brand-logo"><h4 class="white-text">&nbsp;ETERNALAB</h4></a>
           <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="index.html #inicio">Inicio</a></li>
@@ -33,6 +34,23 @@
           </ul>
         </div>
     </nav>
+    <ul id="slide-out" class="sidenav">
+      <li><div class="user-view">
+        <div class="background">
+          <img src="assets/img/background.jpg" class="imagen_layout">
+        </div>
+        <a href="#user"><img class="circle" src="assets/img/profile.png"></a>
+        <a href="#name"><span class="white-text name">Ricardo Valdes</span></a>
+        <a href="#email"><span class="white-text email">ricardovlz.wlf@gmail.com</span></a>
+      </div></li>
+      <li><a href="#" class="white-text">Inicio</a></li>
+      <li><a href="#" class="white-text">Historia</a></li>
+      <li><a href="#" class="white-text">Productos</a></li>
+      <li><a href="#" class="white-text">Videos</a></li>
+      <li><a href="#" class="white-text">Equipo</a></li>
+      <li><a href="#" class="white-text">Contacto</a></li>
+      <li><a href="#" class="white-text">Ubicacion</a></li>
+    </ul>
     <header class="masthead valign-wrapper">
         <div class="container">
           <div class="row">
@@ -50,6 +68,25 @@
           </div>
         </div>
     </header>
+
+    <header>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="responsive-video">
+        <source src="assets/video/vid2.mp4" type="video/mp4">
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white center-align">
+            <br><br><br>
+            <h4 class="white-text">ETERNALAB</h4>
+            <h6 class="TextHeaderp white-text" id="simpleUsage">Que pasa si podemos entender mejor porque envejecemos?</h6>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="assets/img/p2.jpg"></div>
+    </div>
     
 </body>
 </html>

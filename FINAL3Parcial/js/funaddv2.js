@@ -1,17 +1,4 @@
 $(document).ready(function(){
-    $('.tooltip').tooltipster({
-        animation: 'fade',
-        delay: 200,
-        theme: 'tooltipster-noir'
-    });
-    $("h1, h2, h3").css({
-        "color":
-        "Grey",
-        "font-family":
-        "xd"});
-
-
-
 
         Highcharts.chart('container', {
             chart: {
